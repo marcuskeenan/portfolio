@@ -14,22 +14,18 @@ A computer with a modern webrowser.
 
 Git
 
-### Try is for yourself
+### Try it for yourself!
 
 1. Clone this repository into a folder on your computer.
 ```
 $ git clone https://github.com/sigwaveLabs/portfolio.git
 ```
-2. Browse to the folder and click on index.html
+2. Browse to the folder and click on index.html. The site will open in your bowser.
 
 ## Authors
 
 * **Marcus Keenan** - *Initial work* - [SigwaveLabs](https://github.com/SigwaveLabs)
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
