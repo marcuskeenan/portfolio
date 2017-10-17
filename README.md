@@ -14,39 +14,14 @@ A computer with a modern webrowser.
 
 Git
 
+### Try is for yourself
 
 1. Clone this repository into a folder on your computer.
 ```
 $ git clone https://github.com/sigwaveLabs/portfolio.git
 ```
-3. Change to the fresh_tomatoes directory
-```
-$ cd fresh_tomatoes
-```
-4. Run the App
-```
-$ python entertainment_center.py
-```
-## Add your own movies.
+2. Browse to the folder and click on index.html
 
-1. Open entertainment_center.py
-
-2. Add your movie in this format.
-```
-the_goonies = media.Movie(
-"The Goonies",
-"1985",
-"PG",
-"Adventure",
-"In order to save their home from foreclosure, "
-"a group of misfits set out to find a pirate's "
-"ancient valuable treasure.",
-"https://images-na.ssl-images-amazon.com/images/M/MV5BOTlmMWU5YTQtOWMxMi00OWE0LTg2MDItMjEyZDBjNWY0NDdhL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",  # noqa
-"https://www.youtube.com/watch?v=hJ2j4oWdQtU"
-)
-
-
-```
 ## Authors
 
 * **Marcus Keenan** - *Initial work* - [SigwaveLabs](https://github.com/SigwaveLabs)
