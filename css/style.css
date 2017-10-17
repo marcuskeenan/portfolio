@@ -1,0 +1,125 @@
+body {
+  background: #eee;
+  font: 16px "Lucida Console", Monaco, monospace;
+  color: rgb(131, 123, 123);
+}
+
+
+/* Header */
+
+header {
+  padding-top: 20px;
+}
+
+header .container {
+  max-width: 980px;
+  display: flex;
+  position: relative;
+}
+
+header .left-header {
+  font-size: 10px;
+  text-align: rleft;
+  float: left;
+}
+
+header .logo {
+  background: url("../img/logo.png") no-repeat center;
+  border-radius: 10%;
+  padding-top: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+header .right-header {
+  font-size: 15px;
+  width: 90%;
+  text-align: right;
+  float: right;
+}
+
+header .line {
+  border-bottom: solid 5px #7d97ad;
+  width: 100%;
+}
+
+
+/* Content */
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#tiles {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#tiles .tile {
+  background: #fff;
+  width: 32%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+
+#tiles .tile .text-area {
+  padding: 1.5rem;
+}
+
+#tiles .tile h3 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(80, 78, 78);
+}
+
+#tiles .tile:nth-child(3n-1) {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+
+/* Footer */
+
+footer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 850px) {
+  #tiles .tile {
+    width: 49%;
+  }
+  #tiles .tile:nth-child(odd) {
+    margin-right: 2%;
+    margin-left: 0;
+  }
+  #tiles .tile:nth-child(even) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #tiles .tile {
+    width: 99%;
+    margin-right: 0!important;
+    margin-left: 0!important;
+    margin-bottom: 20px;
+  }
+}
