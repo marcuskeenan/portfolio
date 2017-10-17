@@ -69,12 +69,12 @@ img {
 }
 
 #tiles .tile {
-  background: #fff;
-  width: 32%;
-  margin-bottom: 2%;
   box-sizing: border-box;
   flex-shrink: 0;
   border-radius: 5px;
+  background: #fff;
+  width: 32%;
+  margin-bottom: 2%;
 }
 
 #tiles .tile .text-area {
@@ -84,7 +84,7 @@ img {
 #tiles .tile h3 {
   font-size: 20px;
   text-align: center;
-  color: rgb(80, 78, 78);
+  color: #2d3c49;
 }
 
 #tiles .tile:nth-child(3n-1) {
